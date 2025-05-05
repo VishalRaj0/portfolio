@@ -1,5 +1,7 @@
 ///////////////////////////
 // rain toggle with localStorage
+localStorage.setItem('raindropActive', 'false'); // or 'false'
+
 let raindropActive = localStorage.getItem('raindropActive') === 'true'; // retrieve state
 let raindropInterval = null;
 let rainAudio = new Audio('https://insect.christmas/sfx/rain.mp3');

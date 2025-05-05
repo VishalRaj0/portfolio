@@ -482,3 +482,50 @@ html {
         background-position: 100% 50%;
     }
 }
+
+.word-wrapper{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.pixel-canvas {
+  display: block;
+  margin: 0;
+  image-rendering: pixelated;
+}
+
+.pixel-art-section {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* 10 columns */
+  grid-template-rows: 1;    /* 10 rows */
+  gap: 5px; /* space between grid cells */
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  border-right-width: 1px;
+  outline: none;
+  box-shadow: none; /* if any */
+}
+
+.company-name{
+    font-size: 20px;
+    color: slateblue;
+}
+.company-desc{
+    font-size: 15px;
+}
+.navFucker{
+    max-height: 300px; /* or whatever height you want */
+    overflow-y: auto;
+    display: block; /* required to make <th> behave like a block element */
+    padding: 10px;
+    border-left: none;
+}
+
+.document-section {
+  display: grid;
+  grid-template-columns: 7fr 3fr; /* 10 columns */
+  grid-template-rows: repeat(7, 1fr);    /* 10 rows */
+  gap: 10px; /* space between grid cells */
+}

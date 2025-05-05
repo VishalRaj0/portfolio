@@ -1,3 +1,5 @@
+localStorage.setItem('butterflyActive', 'false'); // or 'false'
+
 const butterflies = document.querySelectorAll('.butterfly');
 const colors = ['#7fff00', '#6a5acd', '#ffa500', '#ffff00'];
 
